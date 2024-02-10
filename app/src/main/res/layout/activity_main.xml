@@ -8,11 +8,11 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="479dp"
-        android:layout_height="509dp"
+        android:layout_width="481dp"
+        android:layout_height="527dp"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="234dp">
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="216dp">
 
         <LinearLayout
             android:layout_width="78dp"
@@ -20,12 +20,15 @@
             android:orientation="vertical">
 
             <Button
+
                 android:id="@+id/button7"
-                style="@style/Widget.AppCompat.Button"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="С"
-                android:textSize="24sp" />
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:iconTint="#000000" />
 
             <Button
                 android:id="@+id/button5"
@@ -33,6 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="+/-"
+                android:textColor="#FFFFFF"
                 android:textSize="20sp" />
 
             <Button
@@ -41,6 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="⎷"
+                android:textColor="#000000"
                 android:textSize="24sp" />
 
             <Button
@@ -49,6 +54,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="63dp"
                 android:text="X^y"
+                android:textColor="#000000"
                 android:textSize="16sp" />
 
             <Button
@@ -57,14 +63,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
                 android:text="%"
+                android:textColor="#000000"
                 android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button10"
                 style="@style/Widget.AppCompat.Button"
                 android:layout_width="match_parent"
-                android:layout_height="185dp"
+                android:layout_height="183dp"
                 android:text="+"
+                android:textColor="#000000"
                 android:textSize="24sp" />
 
         </LinearLayout>
@@ -80,6 +88,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="1"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp" />
 
             <Button
@@ -88,6 +97,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="3"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp" />
 
             <Button
@@ -96,6 +106,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="5"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp" />
 
             <Button
@@ -104,6 +115,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="63dp"
                 android:text="7"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp" />
 
             <Button
@@ -112,6 +124,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="87dp"
                 android:text="9"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp" />
 
             <Button
@@ -120,6 +133,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="108dp"
                 android:text="("
+                android:textColor="#FFFFFF"
                 android:textSize="34sp" />
 
             <Button
@@ -128,6 +142,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="74dp"
                 android:text="-"
+                android:textColor="#000000"
                 android:textSize="48sp" />
 
         </LinearLayout>
@@ -143,6 +158,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="2"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp" />
 
             <Button
@@ -151,6 +167,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="4"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp" />
 
             <Button
@@ -159,6 +176,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="6"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp" />
 
             <Button
@@ -167,6 +185,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="63dp"
                 android:text="8"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp" />
 
             <Button
@@ -175,6 +194,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="87dp"
                 android:text="0"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp" />
 
             <Button
@@ -183,6 +203,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="109dp"
                 android:text=")"
+                android:textColor="#FFFFFF"
                 android:textSize="34sp" />
 
             <Button
@@ -191,6 +212,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:text="Х"
+                android:textColor="#000000"
                 android:textSize="34sp" />
 
         </LinearLayout>
@@ -211,7 +233,9 @@
                     android:layout_width="106dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:backgroundTint="#FFFFFF"
                     android:text="1"
+                    android:textColor="#000000"
                     android:textSize="20sp" />
 
                 <Button
@@ -221,6 +245,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="2"
+                    android:textColor="#000000"
                     android:textSize="20sp" />
 
                 <Button
@@ -230,6 +255,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="3"
+                    android:textColor="#000000"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -245,6 +271,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="4"
+                    android:textColor="#000000"
                     android:textSize="20sp" />
 
                 <Button
@@ -254,6 +281,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="5"
+                    android:textColor="#000000"
                     android:textSize="20sp" />
 
                 <Button
@@ -263,6 +291,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="6"
+                    android:textColor="#000000"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -278,6 +307,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="7"
+                    android:textColor="#000000"
                     android:textSize="20sp" />
 
                 <Button
@@ -287,6 +317,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="8"
+                    android:textColor="#000000"
                     android:textSize="20sp" />
 
                 <Button
@@ -296,6 +327,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="9"
+                    android:textColor="#000000"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -307,7 +339,7 @@
                 <Button
                     android:id="@+id/button13"
                     style="@style/Widget.AppCompat.Button"
-                    android:layout_width="wrap_content"
+                    android:layout_width="6dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="0"
@@ -321,6 +353,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="⬅"
+                    android:textColor="#000000"
                     android:textSize="34sp" />
             </LinearLayout>
 
@@ -336,6 +369,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="1"
+                    android:textColor="#000000"
                     android:textSize="20sp" />
 
                 <Button
@@ -345,6 +379,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="2"
+                    android:textColor="#000000"
                     android:textSize="20sp" />
 
                 <Button
@@ -354,6 +389,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="3"
+                    android:textColor="#000000"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -369,6 +405,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="4"
+                    android:textColor="#000000"
                     android:textSize="20sp" />
 
                 <Button
@@ -388,6 +425,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="6"
+                    android:textColor="#000000"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -435,10 +473,11 @@
                 <Button
                     android:id="@+id/button"
                     style="@style/Widget.AppCompat.Button"
-                    android:layout_width="wrap_content"
+                    android:layout_width="5dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="0"
+                    android:textColor="#000000"
                     android:textSize="34sp" />
 
                 <Button
