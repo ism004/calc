@@ -22,9 +22,9 @@
             <Button
 
                 android:id="@+id/button7"
-                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#DF2222"
                 android:text="С"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp"
@@ -32,9 +32,9 @@
 
             <Button
                 android:id="@+id/button5"
-                style="@style/Widget.AppCompat.Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#5A4321"
                 android:text="+/-"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp" />
@@ -229,7 +229,6 @@
 
                 <Button
                     android:id="@+id/button12"
-                    style="@style/Widget.AppCompat.Button"
                     android:layout_width="106dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -240,21 +239,21 @@
 
                 <Button
                     android:id="@+id/button13"
-                    style="@style/Widget.AppCompat.Button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="2"
+                    android:backgroundTint="#FFFFFF"
                     android:textColor="#000000"
                     android:textSize="20sp" />
 
                 <Button
                     android:id="@+id/button14"
-                    style="@style/Widget.AppCompat.Button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="3"
+                    android:backgroundTint="#FFFFFF"
                     android:textColor="#000000"
                     android:textSize="20sp" />
             </LinearLayout>
@@ -266,32 +265,32 @@
 
                 <Button
                     android:id="@+id/button12"
-                    style="@style/Widget.AppCompat.Button"
                     android:layout_width="106dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="4"
                     android:textColor="#000000"
+                    android:backgroundTint="#FFFFFF"
                     android:textSize="20sp" />
 
                 <Button
                     android:id="@+id/button13"
-                    style="@style/Widget.AppCompat.Button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="5"
                     android:textColor="#000000"
+                    android:backgroundTint="#FFFFFF"
                     android:textSize="20sp" />
 
                 <Button
                     android:id="@+id/button14"
-                    style="@style/Widget.AppCompat.Button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="6"
                     android:textColor="#000000"
+                    android:backgroundTint="#FFFFFF"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -302,32 +301,32 @@
 
                 <Button
                     android:id="@+id/button12"
-                    style="@style/Widget.AppCompat.Button"
                     android:layout_width="106dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="7"
                     android:textColor="#000000"
+                    android:backgroundTint="#FFFFFF"
                     android:textSize="20sp" />
 
                 <Button
                     android:id="@+id/button13"
-                    style="@style/Widget.AppCompat.Button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="8"
                     android:textColor="#000000"
+                    android:backgroundTint="#FFFFFF"
                     android:textSize="20sp" />
 
                 <Button
                     android:id="@+id/button14"
-                    style="@style/Widget.AppCompat.Button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="9"
                     android:textColor="#000000"
+                    android:backgroundTint="#FFFFFF"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -338,21 +337,21 @@
 
                 <Button
                     android:id="@+id/button13"
-                    style="@style/Widget.AppCompat.Button"
                     android:layout_width="6dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="0"
                     android:textColor="#000000"
+                    android:backgroundTint="#FFFFFF"
                     android:textSize="34sp" />
 
                 <Button
                     android:id="@+id/button14"
-                    style="@style/Widget.AppCompat.Button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="⬅"
+                    android:backgroundTint="#FFFFFF"
                     android:textColor="#000000"
                     android:textSize="34sp" />
             </LinearLayout>
@@ -508,11 +507,10 @@
 
                 <Button
                     android:id="@+id/button15"
-                    style="@style/Widget.AppCompat.Button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:backgroundTint="#FF3D00"
+                    android:backgroundTint="#FB9600"
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#000000"
                     android:text="="
@@ -535,6 +533,7 @@
             android:id="@+id/imageView"
             android:layout_width="482dp"
             android:layout_height="247dp"
+            android:backgroundTint="#FFFFFF"
             app:srcCompat="@drawable/calculator" />
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
